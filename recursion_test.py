@@ -7,7 +7,7 @@ def stack_me(num1):
     num1 += 1
     return_me = stack_me(num1)
     print("remove stack_me:",num1,end=" ")
-    print("return_me:",num1)
+    print("return_me:",return_me)
 
 def main():
     start = 1
